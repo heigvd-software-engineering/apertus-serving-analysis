@@ -9,7 +9,7 @@ This repository contains the anonymised production trace from [**Public AI's**](
 
 ## Overview
 
-The trace covers **five months** (September 2025 - January 2026) of production traffic from a public, free-access LLM inference service. It contains **337,155 successfully completed requests** of two model variants: Apertus-8B-Instruct-2509 and Apertus-70B-Instruct-2509 served through an open-source serving stack (Open WebUI (or dev workloads via Zuplo) → LiteLLM → vLLM), deployed and maintained by the Public AI team. Their serving framework is available at: https://github.com/forpublicai/chat.publicai.co.git
+The trace covers **five months** (September 2025 - January 2026) of production traffic from a public, free-access LLM inference service. It contains **337,155 successfully completed requests** of two model variants: Apertus-8B-Instruct-2509 and Apertus-70B-Instruct-2509 served through an open-source serving stack (Open WebUI (or dev workloads via Zuplo) → LiteLLM → vLLM), deployed and maintained by the Public AI team. Their serving framework is available at: [The movement for public AI](https://github.com/forpublicai)
 
 Together with the openly available Apertus model weights, this constitutes an end-to-end open dataset for LLM serving research: open model, open serving stack, and open trace.
 
