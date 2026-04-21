@@ -9,7 +9,7 @@ This repository contains the anonymised production trace from [**Public AI's**](
 
 ## Overview
 
-The trace covers **five months** (September 2025 - January 2026) of production traffic from a public, free-access LLM inference service. It contains **337,155 successfully completed requests** served through a three-layer Kubernetes stack (Open WebUI → LiteLLM → vLLM) to two model variants: Apertus-8B-Instruct-2509 and Apertus-70B-Instruct-2509.
+The trace covers **five months** (September 2025 - January 2026) of production traffic from a public, free-access LLM inference service. It contains **337,155 successfully completed requests** of two model variants: Apertus-8B-Instruct-2509 and Apertus-70B-Instruct-2509 served through an open-source serving stack (Open WebUI → LiteLLM → vLLM), deployed and maintained by the Public AI team. Their serving framework is available at: https://github.com/forpublicai/chat.publicai.co.git
 
 Together with the openly available Apertus model weights, this constitutes an end-to-end open dataset for LLM serving research: open model, open serving stack, and open trace.
 
@@ -97,4 +97,7 @@ coming soon...
 The trace data is released under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Acknowledgements
-We thank Public AI for providing access to the serving infrastructure and trace data, and for their work advancing idea of open AI for benefiting public interest. We also thank CSCS for providing information on the backend infrastructure. This work was supported by the Swiss National Science Foundation (SNSF) under Grant 10001932 (DEEP).
+We thank Public AI for providing access to the serving infrastructure and trace data, and for their work advancing idea of open AI for benefiting public interest. We also thank Héctor F. Satizábal for his valuable feedback and CSCS for providing information on the backend infrastructure. This work was supported by the Swiss National Science Foundation (SNSF) under Grant 10001932 (DEEP).
+
+## Contact
+If you have any questions, feedback, or encounter issues, feel free to reach out via [email](mailto:busra.karatayd@hes-so.ch).
