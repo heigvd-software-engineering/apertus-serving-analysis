@@ -1,11 +1,7 @@
 # Apertus LLM Serving Trace
 
-This repository contains the anonymised production trace from [**Public AI's**](https://openreview.net/pdf?id=uQW9yeormT) deployment of [Apertus](https://arxiv.org/abs/2509.14233), an open-source multilingual language model developed by the Swiss AI Initiative. The trace accompanies the paper:
+This repository contains the anonymised production trace from [**Public AI's**](https://openreview.net/pdf?id=uQW9yeormT) deployment of [Apertus](https://arxiv.org/abs/2509.14233), an open-source multilingual language model developed by the Swiss AI Initiative. The trace accompanies the paper: [**Where the Time Goes: Analysis of a Public LLM Serving System**](https://doi.org/10.1145/3805621.3807650)
 
-> **Where the Time Goes: Analysis of a Public LLM Serving System**  
-> Büşra Karatay Demiray, Ehsan Yousefzadeh-Asl-Miandoab, Pınar Tözün, Benoît Garbinato, Pamela Delgado  
-> EuroMLSys 2026  
-> DOI: [10.1145/3805621.3807650](https://doi.org/10.1145/3805621.3807650)
 
 ## Overview
 
@@ -88,9 +84,7 @@ The notebook is organised by figure number and is meant to be read alongside the
 
 If you use this trace in your research, please cite:
 
-```bibtex
-coming soon...
-```
+> Büşra Karatay Demiray, Ehsan Yousefzadeh-Asl-Miandoab, Benoît Garbinato, Pınar Tözün, and Pamela Delgado. 2026. Where the Time Goes: Analysis of a Public LLM Serving System. In Proceedings of the Sixth European Workshop on Machine Learning and Systems (EuroMLSys '26). Association for Computing Machinery, New York, NY, USA, 171–182. https://doi.org/10.1145/3805621.3807650
 
 ## License
 
